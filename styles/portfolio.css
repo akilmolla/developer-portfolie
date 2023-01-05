@@ -3,6 +3,7 @@
     font-family: 'Open Sans', sans-serif;
 
 }
+
 .text-primary {
     color: #FD6E0A;
 }
@@ -20,14 +21,16 @@
 }
 
 /* navgartion bararea */
-.header-bg{
+.header-bg {
     background: #FFF8F3;
     background-image: url(../images/header_bg.png), url(../images/developer.png);
     background-repeat: no-repeat;
-    background-position: bottom  right, left;
+    background-position: bottom right, left;
+    margin-bottom: 130px;
 }
+
 nav {
-    display: flex;
+    / display: flex;
     justify-content: space-between;
     margin: 50px 200px;
 }
@@ -64,14 +67,54 @@ nav li {
     font-weight: 700;
     font-size: 65px;
 }
+
 .banner-sub-title {
     font-weight: 600;
     font-size: 45px;
     margin-bottom: 20px;
 }
+
 .bannar-description {
     /* font-weight: 400; */
     font-size: 18px;
     color: #757575;
     margin-bottom: 30px;
+}
+
+/* main section */
+/* main section */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+    /* margin-top: 130px; */
+}
+
+/* about section styles */
+
+
+.about {
+    margin-top: 394px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 130px;
+    text-align: center;
+}
+
+.section-title {
+    
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 35px;
+
+
+}
+
+
+.dection-description {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+}
+.about-info-containar{
+    display: flex;
 }
