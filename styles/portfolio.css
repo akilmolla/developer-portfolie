@@ -215,3 +215,16 @@ main {
 .margs {
     margin-left: -15px;
 }
+ /* social-media area */
+ .social-space{
+    background-color: #474747;
+    height: 100%;
+ }
+.social-btn{
+    display: flex;
+    gap: 30px;
+    
+}
+.bg{
+    background-color: aqua;
+}
