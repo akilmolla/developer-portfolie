@@ -84,7 +84,8 @@ nav li {
 /* main section */
 /* main section */
 section {
-    margin: 130px;
+    margin-top: 130px;
+    margin: 0 auto;
 }
 
 main {
@@ -148,15 +149,16 @@ main {
 
 .skills-container {
     display: flex;
-    gap: 24px;
+
 }
 
 .skill {
     background: #FFFFFF;
     box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
-    padding: 20px;
+    padding: 15px;
     width: 50%;
+
 }
 
 .skill-title {
@@ -173,23 +175,43 @@ main {
 }
 
 /* rusume style */
-.resume{
+.resume {
     display: flex;
     gap: 30px;
+    width: 0 200px;
 
 }
+
+.destriny {
+    margin-top: 130px;
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 80px;
+}
+
 .edo-one {
     font-weight: 700;
     font-size: 30px;
 }
-.gap-one{
-    margin-top:20px;
+
+.gap-one {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    ;
+
 }
+
 .resume-para {
     font-weight: 700;
     font-size: 25px;
 }
-.shikka-par{
+
+.shikka-par {
     margin-top: 20px;
     margin-bottom: 15px;
+}
+
+.margs {
+    margin-left: -15px;
 }
